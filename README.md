@@ -1,4 +1,4 @@
-# 🚗 Vehicle Insurance Premium Predictor
+# Vehicle Insurance Premium Predictor
 
 A machine learning project that predicts whether a vehicle insurance premium is **above 300** or **300 and below** using customer, driver, and vehicle-related features.
 
