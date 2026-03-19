@@ -25,6 +25,8 @@ Insurance companies often need fast ways to assess whether a policy premium is l
 
 ## Dataset Features
 
+Kaggle Link - https://www.kaggle.com/datasets/mexwell/motor-vehicle-insurance-portfolio
+
 The original dataset contains variables related to:
 
 - policy details
