@@ -2,6 +2,8 @@
 
 A machine learning project that predicts whether a vehicle insurance premium is **above 300** or **300 and below** using customer, driver, and vehicle-related features.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-name.streamlit.app](https://insurance-predictor-app-coo.streamlit.app))
+
 ## Overview
 
 This project transforms the insurance premium prediction task into a binary classification problem by creating a target variable:
