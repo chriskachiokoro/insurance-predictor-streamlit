@@ -61,5 +61,4 @@ target_300 = (Premium > 300).astype(int)
 
 1. Clone the repository
 2. Install dependencies
-3. Make sure Git LFS is installed if pulling model files
-4. Run the Streamlit app
+3. Run the Streamlit app
