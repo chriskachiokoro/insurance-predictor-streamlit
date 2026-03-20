@@ -4,6 +4,9 @@ import joblib
 import io
 import time
 
+MODEL_PATH = "random_forest_top10_model.joblib"
+MODEL_COLUMNS_PATH = "top10_model_columns.joblib"
+
 # -----------------------------
 # Configuration & Styling
 # -----------------------------
@@ -141,8 +144,8 @@ def reset_form():
 # -----------------------------
 @st.cache_resource
 def load_ml_assets():
-    model = joblib.load("random_forest_top10_model.pkl")
-    model_columns = joblib.load("top10_model_columns.pkl")
+    model = joblib.load(MODEL_PATH)
+    model_columns = joblib.load(MODEL_COLUMNS_PATH)
     return model, model_columns
 
 model, model_columns = load_ml_assets()
