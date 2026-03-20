@@ -55,7 +55,7 @@ The original `Premium` column was converted into a binary target:
 
 ```python
 target_300 = (Premium > 300).astype(int)
-
+```
 
 ## Run Locally
 
